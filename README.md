@@ -13,3 +13,4 @@
     6. If task is in more that 10 story points. Idea is to save to chase the splinted task and on next week assign accordingly.
 
     
+API docs: http://localhost:8080/swagger-ui/index.html
