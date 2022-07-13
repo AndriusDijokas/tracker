@@ -1,0 +1,22 @@
+spring:
+  h2:
+    console.enabled: true
+  datasource:
+    url: jdbc:h2:mem:tracker
+    username: my
+    password: psw
+    driverClassName: org.h2.Driver
+  jpa:
+    spring.jpa.database-platform: org.hibernate.dialect.H2Dialect
+    properties:
+      hibernate:
+        format_sql: true
+    show-sql: true
+    hibernate:
+      ddl-auto: create
+
+springdoc:
+  swagger-ui:
+    path: /api
+  api-docs:
+    path: /api-docs
