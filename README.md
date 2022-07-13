@@ -1,10 +1,10 @@
-##How to run:
+# How to run:
     1. Build with gradle.
     2. Run tracker-0.0.1-SNAPSHOT.jar with spring profile application-h2.yml
     OR
     1. use intelij or other GUI and use spring profile application-h2.yml
 
-#ToDo:
+# ToDo:
     1. Read Todo list in code.
     2. Not implemented in Algorithm if Task is evaluated more that 10 story points. Need to split task into separate weeks.
     3. All request mappings can be moved to enum.
